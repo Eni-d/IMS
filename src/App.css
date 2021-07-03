@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+#table{
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+  }
+  
+  td{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 10%;
+  }
+  
+  th{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 10%;
+  }
+
+  .view:hover{
+    background-color: #ffffff;
+    border: none;
+  }
+
+  .purchase:hover{
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+  }
+  
+
+@media only screen and (max-width: 768px) {
+  /* for small screens */
+      .form-div{
+          padding: 0%;
+      }
+      .hide{
+          display: none;
+      }
+      .view{
+        display: none;
+      }
+      .viewBtn{
+        display: block;
+      }
+      .purchase:hover{
+        background-color: #ffffff;
+        border: 0px solid #ffffff;
+      }
+  }
+      
+  @media only screen and (min-width: 768px) {
+  /* for large screens */
+      .form-div{
+          padding-right: 25%;
+          padding-left: 25%;
+      }
+      .btn:hover{
+          background-color: green;
+          border: 1px solid green;
+      }
+      .view:hover{
+        background-color: #ffffff;
+        border: 0px solid #ffffff;
+      }
+      .viewBtn{
+        display: none;
+      }
+      .purchase:hover{
+        background-color: #ffffff;
+        border: 0px solid #ffffff;
+      }
+  }
+      
+   @media only print {
+  /* for printers */
+  }
